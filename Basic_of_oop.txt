@@ -1,0 +1,46 @@
+## what is oop?
+# ans:Object-oriented programming in python is a programming paradigm that uses objects,which are instance of classes,to organize code.In python,everything is an object,and OOP allows you to structure your code in a way that models real-world entitiees and their interactions.
+"""
+## What is class?
+ans:1) Class is a blurprint to construct an object.
+    2) It is an imaginary/logical entity.
+    3) It does not require memory for execution.
+
+## what is an object?
+ans:1) An object is an instance of class.
+    2) It is an physical/real-world entity.
+    3) It requires memory for execution.
+    4) Object have attributes(properties) and methods(behavior).
+    syntax:
+    ref_var=ClassName()
+
+## what is reference variable?
+ans: Reference variable is used to access functionalies of an object.
+
+## How to create class?
+ans:1) class is created by using 'class' keyword followed by an class name.
+    2) syntax:
+       class ClassName:
+            #body
+
+## Attribute:Variables that store data within a class.
+There re three types of attributes
+1) instance variable:
+-instance variable are object level variable.
+-instance variable are defined in constructor or method using self.
+-Its value is different for each object.
+-If value of one attribute is updated,it does not affect another attribute value.
+- They can be access using object reference only.
+
+2) class/static variable:
+-class/static variables are class level variables.
+-they are defined in class and outside of any method.
+-its value is same,common for all objects.
+-it can share object data
+-if value of one attribute is udated,it affect another object.
+-They can be access using object reference as well as class name but recommended for use classname.
+
+3) Local variables:
+- They are method level variables.
+- they can be used only in specific method.
+- they can be access using object reference.
